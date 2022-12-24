@@ -4,9 +4,9 @@ import "./Footer.scss";
 export const Footer = () => {
   return (
     <footer>
-      <div class="container">
+      <div className="container">
         <div className="inner">
-          <div class="powered">
+          <div className="powered">
             Powered by
             <a href="https://github.com/labCap" target="_blank">
               labCap
