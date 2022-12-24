@@ -1,1 +1,75 @@
 @import "rem";
+@import "styleList";
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+
+  background-color: #333;
+  font-size: 18px;
+  color: #d3d3d3;
+
+  main {
+    flex: 1 1 100%;
+  }
+
+  .container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+}
+
+header {
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+
+  .theme-btn {
+    padding: 5px;
+  }
+}
+
+.logo {
+  font-size: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  p {
+    text-align: left;
+  }
+}
+
+footer {
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  .powered {
+    a {
+      margin-left: 10px;
+    }
+  }
+}

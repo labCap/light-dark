@@ -33,11 +33,13 @@ function App() {
       </main>
       <footer>
         <div class="container">
-          <div class="powered">
-            Powered by
-            <a href="https://github.com/labCap" target="_blank">
-              labCap
-            </a>
+          <div className="inner">
+            <div class="powered">
+              Powered by
+              <a href="https://github.com/labCap" target="_blank">
+                labCap
+              </a>
+            </div>
           </div>
         </div>
       </footer>
